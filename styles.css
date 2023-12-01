@@ -1,0 +1,41 @@
+/* html {
+    padding: 0;
+    margin: 0;
+} */
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    /* grid-area: 1fr 5fr / 1fr 5fr; */
+    border: 1px solid grey;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar main-content"
+}
+
+#sidebar {
+    background-color: #1992d4;
+    color: white;
+    grid-area: sidebar;
+}
+
+.fa {
+    margin: 5px;
+}
+
+
+.sidebar-hero h3 {
+    
+}
+
+
+#header {
+    grid-area: header;
+
+}
+
+#main-content {
+    background-color: #e2e8ef;
+    grid-area: main-content;
+}
