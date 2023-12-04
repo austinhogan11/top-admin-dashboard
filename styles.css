@@ -1,14 +1,16 @@
-/* html {
+html {
     padding: 0;
     margin: 0;
-} */
+    /* background-color: #1992d4; */
+}
 
 #page-layout {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns:  fit-content(30%) 5fr;
     grid-template-rows: 1fr 5fr;
-    /* grid-area: 1fr 5fr / 1fr 5fr; */
     border: 1px solid grey;
+    height: 100vh;
+    width: 100vw;
     grid-template-areas:
         "sidebar header"
         "sidebar main-content"
@@ -18,20 +20,38 @@
     background-color: #1992d4;
     color: white;
     grid-area: sidebar;
+    padding: 0 35px;
+    height: 100%;
 }
 
-.fa {
-    margin: 5px;
+#side-nav {
+    margin-bottom: 25px;
 }
 
+.side-div {
+    margin: 50px 0;
+}
 
-.sidebar-hero h3 {
-    
+#sidebar-hero {
+    margin-top: 25px;
+}
+
+.side-nav-item {
+    /* margin-bottom: 25px; */
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+.hero-icon {
+    padding-right: 5px; 
 }
 
 
 #header {
     grid-area: header;
+    background-color: white;
 
 }
 
