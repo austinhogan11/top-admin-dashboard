@@ -52,7 +52,78 @@ html {
 #header {
     grid-area: header;
     background-color: white;
+}
 
+#search-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: #e2e8f0;
+    border-style: none;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 17px;
+}
+
+#search-left {
+    display: flex;
+}
+
+#search-right {
+    display: flex;
+}
+
+.header-icon {
+    font-size: 24px;
+}
+
+#bell-icon, #search-user-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+#search-icon {
+    margin-right: 20px;
+}
+
+.search-icon {
+    color: #313131;
+    background-color: #313131;
+}
+
+#profile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#profile-left div {
+    margin: 20px 15px;
+    font-size: 20px;
+}
+
+#profile-btns button {
+    margin: 0 15px;
+    background-color: #1992d4;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    width: 100px;
+    
+}
+
+#profile-left {
+    display: flex;
+    align-items: center;
 }
 
 #main-content {
