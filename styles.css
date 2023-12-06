@@ -129,4 +129,30 @@ html {
 #main-content {
     background-color: #e2e8ef;
     grid-area: main-content;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 20px;
+    padding: 50px 25px;
+    grid-template-areas:
+        "projects announcements"
+        "projects trending"
+}
+
+.main-div {
+    border: 1px solid;
+}
+
+#projects {
+    grid-area: projects;
+    border-width: 2px;
+    border-color: #313131;
+}
+
+#announcements {
+    grid-area: announcements;
+}
+
+#trending {
+    grid-area: trending;
 }
