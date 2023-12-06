@@ -181,6 +181,17 @@ html {
     grid-area: announcements;
 }
 
+.announcements {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.announcement-card {
+    /* background-color: white; */
+}
+
 #trending {
     grid-area: trending;
 }
