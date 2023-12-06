@@ -9,7 +9,7 @@ html {
     grid-template-columns:  fit-content(30%) 5fr;
     grid-template-rows: 1fr 5fr;
     border: 1px solid grey;
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     grid-template-areas:
         "sidebar header"
@@ -131,17 +131,14 @@ html {
     grid-area: main-content;
     display: grid;
     grid-template-columns: 5fr 2fr;
-    grid-template-rows 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
     gap: 20px;
-    padding: 50px 25px;
+    padding: 10px 25px;
     grid-template-areas:
         "projects announcements"
         "projects trending"
 }
 
-.main-div {
-    /* border: 1px solid; */
-}
 
 #projects {
     grid-area: projects;
@@ -151,10 +148,8 @@ html {
 
 #project-cards {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 0 0;
 }
 
 .project-card {
@@ -186,10 +181,6 @@ html {
     padding: 10px 30px;
     border-radius: 8px;
     box-shadow: 3px 3px 5px grey;
-}
-
-.announcement-card {
-    /* background-color: white; */
 }
 
 #trending {
