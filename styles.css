@@ -181,7 +181,7 @@ html {
     grid-area: announcements;
 }
 
-.announcements {
+.announcements, .trending {
     background-color: white;
     padding: 10px 30px;
     border-radius: 8px;
@@ -194,4 +194,10 @@ html {
 
 #trending {
     grid-area: trending;
+}
+
+.trend {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
